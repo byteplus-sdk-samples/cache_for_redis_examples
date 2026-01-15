@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Service B Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg-service-b">
+  <h1>Welcome {{ username }} to Service B</h1>
+  <a href="http://localhost:5001/" class="button service-a">Go to Service A</a>
+  <a href="http://localhost:5000/logout" class="button logout">Log out</a>
+</body>
+</html>

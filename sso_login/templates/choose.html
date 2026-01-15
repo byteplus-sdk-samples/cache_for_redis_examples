@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Choose a Service</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg-choose">
+  <h2>Login successful! Please choose a service to access:</h2>
+  <a href="http://localhost:5001/" class="button service-a">Service A</a>
+  <a href="http://localhost:5002/" class="button service-b">Service B</a>
+  <br>
+  <a href="/logout" class="button logout">Log out</a>
+</body>
+</html>

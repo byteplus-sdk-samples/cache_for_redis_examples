@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+h1, h2 {
+  margin-bottom: 30px;
+}
+
+a.button {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+  filter: brightness(85%);
+}
+
+/* 页面背景色分别用类区分 */
+.bg-login {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.bg-choose {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.bg-service-a {
+  background-color: #e9f7ef;
+  color: #2c3e50;
+}
+
+.bg-service-b {
+  background-color: #fcefe3;
+  color: #7f4e1e;
+}
+
+/* 不同按钮颜色 */
+a.service-a {
+  background-color: #27ae60;
+}
+
+a.service-b {
+  background-color: #d35400;
+}
+
+a.logout {
+  background-color: #555;
+  font-size: 14px;
+  padding: 8px 15px;
+  margin-top: 40px;
+  display: inline-block;
+}
