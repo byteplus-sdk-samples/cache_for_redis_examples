@@ -7,3 +7,7 @@ A ChatBot system enhanced with Redis Vector Similarity Search. It vectorizes and
 
 ## sso_login
 A Redis-based Single Sign-On (SSO) login system. It stores user login/session information in Redis to enable SSO across multiple services.
+
+## Security and privacy
+This project takes security seriously. 
+For vulnerability reporting and supported versions, see [SECURITY.md](SECURITY.md)
